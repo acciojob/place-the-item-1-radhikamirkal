@@ -1,2 +1,11 @@
+.holder{
+    display: flex;
+    justify-content: space-between; /* space between items */
+    flex-wrap: wrap;                 /* allow items to move to next row */
+}
 
+.item{
+    flex-shrink: 0;   /* prevent squashing */
+    /* width/height will already be given in test cases */
+}
 /* Your CSS Code here. */

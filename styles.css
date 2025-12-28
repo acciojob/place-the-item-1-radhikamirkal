@@ -1,11 +1,28 @@
 .holder{
     display: flex;
-    justify-content: space-between; /* space between items */
-    flex-wrap: wrap;                 /* allow items to move to next row */
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .item{
-    flex-shrink: 0;   /* prevent squashing */
-    /* width/height will already be given in test cases */
+    width: 120px;
+    height: 120px;
+    background: red;
+    color: white;
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;   /* prevents squashing */
 }
+
+
+
+
+
+
+
+
+
+
 /* Your CSS Code here. */
